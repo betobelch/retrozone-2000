@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogos - RetroZone 2000</title>
-    <link rel="stylesheet" href="../style/games.css">
+    <link rel="stylesheet" href="../style/base/games.css">
     <style>
         
     </style>
@@ -16,11 +16,11 @@
                 <div class="logo">RETROZONE 2000</div>
                 <nav>
                     <ul>
-                        <li><a href="../../index.html">Início</a></li>
-                        <li><a href="jogos.html">Jogos</a></li>
-                        <li><a href="consoles.html">Consoles</a></li>
+                        <li><a href="../index.html">Início</a></li>
+                        <li><a href="../pages/games.html">Jogos</a></li>
+                        <li><a href="../pages/consoles.html">Consoles</a></li>
                         <li><a href="../pages/noticias.html">Notícias</a></li>
-                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="../pages/contact.html">Contato</a></li>
                     </ul>
                 </nav>
             </div>
@@ -56,102 +56,137 @@
         
         <section class="games-section">
             <div class="container">
-                <h2 class="section-title">CATÁLOGO DE JOGOS</h2>
-                <div class="games-grid">
-                    <div class="game-card">
-                        <div class="game-image">
-                            <img src="../img/kirby.jpg" alt="Capa do jogo de PS2 com tema cyberpunk sombrio">
-                        </div>
-                        <h3 class="game-title">Kirby</h3>
-                        <span class="game-platform">PS2</span>
-                        <p class="game-description">Ação e aventura em um mundo cyberpunk distópico. Corra, lute e hackeie seu caminho pela cidade.</p>
-                        <div class="game-rating">
-                            <span class="stars">★★★★☆</span>
-                            <span>4.5/5</span>
-                        </div>
-                        <a href="../pages/page_game.html">
-                        <button class="btn">Ver Detalhes</button>
-                        </a>
+                <h2 class="section-title">JOGOS EM DESTAQUE</h2>
+<div class="carousel-container">
+    <!-- Radios ocultos para controle (um por slide) -->
+    <input type="radio" id="slide1" name="carousel" checked>
+    <input type="radio" id="slide2" name="carousel">
+    <input type="radio" id="slide3" name="carousel">
+    
+    <div class="carousel-wrapper">
+        <!-- Slide 1 -->
+        <div class="carousel-slide">
+            <div class="carousel-grid">
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=GRAND+THEFT+AUTO+SAN+ANDREAS" alt="Grand Theft Auto: San Andreas">
                     </div>
-                    
-                    <div class="game-card">
-                        <div class="game-image">
-                            <img src="../img/pokemon_cd.jpg" alt="Capa de jogo do GameCube com cores vibrantes">
-                        </div>
-                        <h3 class="game-title">Pokemon XD</h3>
-                        <span class="game-platform">GameCube</span>
-                        <p class="game-description">Aventura épica em um mundo colorido de fantasia. Resolva quebra-cabeças e enfrente chefes poderosos.</p>
-                        <div class="game-rating">
-                            <span class="stars">★★★★★</span>
-                            <span>5/5</span>
-                        </div>
-                        <a href="../pages/page_game.html">
-                        <button class="btn">Ver Detalhes</button>
-                        </a>
-                    </div>
-                    
-                    <div class="game-card">
-                        <div class="game-image">
-                            <img src="../img/sonic_black.jpg" alt="Capa de jogo de corrida com luzes neon">
-                        </div>
-                        <h3 class="game-title">Sonic Black</h3>
-                        <span class="game-platform">PS2</span>
-                        <p class="game-description">Corridas em alta velocidade em pistas neon futuristas. Personalize seu veículo e domine a estrada.</p>
-                        <div class="game-rating">
-                            <span class="stars">★★★★☆</span>
-                            <span>4.2/5</span>
-                        </div>
-                        <a href="../pages/page_game.html">
-                        <button class="btn">Ver Detalhes</button>
-                        </a>
-                        
-                    </div>
-                    <div class="game-card">
-                        <div class="game-image">
-                            <img src="../img/sonic_black.jpg" alt="Capa de jogo de corrida com luzes neon">
-                        </div>
-                        <h3 class="game-title">Sonic Black</h3>
-                        <span class="game-platform">PS2</span>
-                        <p class="game-description">Corridas em alta velocidade em pistas neon futuristas. Personalize seu veículo e domine a estrada.</p>
-                        <div class="game-rating">
-                            <span class="stars">★★★★☆</span>
-                            <span>4.2/5</span>
-                        </div>
-                        <a href="../pages/page_game.html">
-                        <button class="btn">Ver Detalhes</button>
-                        </a>
-                    </div>
-                    <div class="game-card">
-                        <div class="game-image">
-                            <img src="../img/kirby.jpg" alt="Capa do jogo de PS2 com tema cyberpunk sombrio">
-                        </div>
-                        <h3 class="game-title">Kirby</h3>
-                        <span class="game-platform">PS2</span>
-                        <p class="game-description">Ação e aventura em um mundo cyberpunk distópico. Corra, lute e hackeie seu caminho pela cidade.</p>
-                        <div class="game-rating">
-                            <span class="stars">★★★★☆</span>
-                            <span>4.5/5</span>
-                        </div>
-                        <a href="../pages/page_game.html">
-                        <button class="btn">Ver Detalhes</button>
-                        </a>
-                    </div>
-                    <div class="game-card">
-                        <div class="game-image">
-                            <img src="../img/pokemon_cd.jpg" alt="Capa de jogo do GameCube com cores vibrantes">
-                        </div>
-                        <h3 class="game-title">Pokemon XD</h3>
-                        <span class="game-platform">GameCube</span>
-                        <p class="game-description">Aventura épica em um mundo colorido de fantasia. Resolva quebra-cabeças e enfrente chefes poderosos.</p>
-                        <div class="game-rating">
-                            <span class="stars">★★★★★</span>
-                            <span>5/5</span>
-                        </div>
-                        <a href="../pages/page_game.html">
-                        <button class="btn">Ver Detalhes</button>
-                        </a>
-                    </div>
+                    <h3 class="game-title-carousel">GRAND THEFT AUTO: SAN ANDREAS</h3>
+                    <span class="game-platform-carousel">PS2</span>
+                    <div class="game-rating-carousel">★★★★★</div>
                 </div>
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=RESIDENT+EVIL+4" alt="Resident Evil 4">
+                    </div>
+                    <h3 class="game-title-carousel">RESIDENT EVIL 4</h3>
+                    <span class="game-platform-carousel">GameCube</span>
+                    <div class="game-rating-carousel">★★★★★</div>
+                </div>
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=GOD+OF+WAR" alt="God of War">
+                    </div>
+                    <h3 class="game-title-carousel">GOD OF WAR</h3>
+                    <span class="game-platform-carousel">PS2</span>
+                    <div class="game-rating-carousel">★★★★☆</div>
+                </div>
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=METAL+GEAR+SOLID+2" alt="Metal Gear Solid 2">
+                    </div>
+                    <h3 class="game-title-carousel">METAL GEAR SOLID 2</h3>
+                    <span class="game-platform-carousel">PS2</span>
+                    <div class="game-rating-carousel">★★★★★</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 2 -->
+        <div class="carousel-slide">
+            <div class="carousel-grid">
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=THE+LEGEND+OF+ZEALDA+WIND+WAKEY" alt="The Legend of Zelda: Wind Waker">
+                    </div>
+                    <h3 class="game-title-carousel">THE LEGEND OF ZELDA: WIND WAKER</h3>
+                    <span class="game-platform-carousel">GameCube</span>
+                    <div class="game-rating-carousel">★★★★★</div>
+                </div>
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=FINAL+FANTASY+X" alt="Final Fantasy X">
+                    </div>
+                    <h3 class="game-title-carousel">FINAL FANTASY X</h3>
+                    <span class="game-platform-carousel">PS2</span>
+                    <div class="game-rating-carousel">★★★★☆</div>
+                </div>
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=SMASH+BROS+MELEE" alt="Super Smash Bros. Melee">
+                    </div>
+                    <h3 class="game-title-carousel">SUPER SMASH BROS. MELEE</h3>
+                    <span class="game-platform-carousel">GameCube</span>
+                    <div class="game-rating-carousel">★★★★★</div>
+                </div>
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=KINGDOM+HEARTS" alt="Kingdom Hearts">
+                    </div>
+                    <h3 class="game-title-carousel">KINGDOM HEARTS</h3>
+                    <span class="game-platform-carousel">PS2</span>
+                    <div class="game-rating-carousel">★★★★★</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="carousel-slide">
+            <div class="carousel-grid">
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=LUIGI'S+MANSIION" alt="Luigi's Mansion">
+                    </div>
+                    <h3 class="game-title-carousel">LUIGI'S MANSION</h3>
+                    <span class="game-platform-carousel">GameCube</span>
+                    <div class="game-rating-carousel">★★★★☆</div>
+                </div>
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=GRAN+TURISMO+4" alt="Gran Turismo 4">
+                    </div>
+                    <h3 class="game-title-carousel">GRAN TURISMO 4</h3>
+                    <span class="game-platform-carousel">PS2</span>
+                    <div class="game-rating-carousel">★★★★★</div>
+                </div>
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=PIKMIN" alt="Pikmin">
+                    </div>
+                    <h3 class="game-title-carousel">PIKMIN</h3>
+                    <span class="game-platform-carousel">GameCube</span>
+                    <div class="game-rating-carousel">★★★★☆</div>
+                </div>
+                <div class="game-card-carousel">
+                    <div class="game-image-carousel">
+                        <img src="https://via.placeholder.com/250x150/1a1a2a/00ffff?text=SHADOW+OF+THE+COLOSSUS" alt="Shadow of the Colossus">
+                    </div>
+                    <h3 class="game-title-carousel">SHADOW OF THE COLOSSUS</h3>
+                    <span class="game-platform-carousel">PS2</span>
+                    <div class="game-rating-carousel">★★★★★</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Dots como labels para os radios -->
+<div class="carousel-nav">
+    <label for="slide1" class="carousel-dot active"></label>
+    <label for="slide2" class="carousel-dot"></label>
+    <label for="slide3" class="carousel-dot"></label>
+</div>
+
             </div>
         <section class="newsletter">
             <div class="container">
